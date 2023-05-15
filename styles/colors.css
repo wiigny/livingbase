@@ -1,0 +1,27 @@
+.brand100{
+    color: var(--color-brand-100);
+}
+.brand200{
+    color: var(--color-brand-200);
+}
+.grey100{
+    color: var(--color-grey-100);
+}
+.grey200{
+    color: var(--color-grey-200);
+}
+.grey300{
+    color: var(--color-grey-300);
+}
+.grey400{
+    color: var(--color-grey-400);
+}
+.grey500{
+    color: var(--color-grey-500);
+}
+.grey600{
+    color: var(--color-grey-600);
+}
+.grey700{
+    color: var(--color-grey-700);
+}

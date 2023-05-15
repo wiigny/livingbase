@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color-grey-100: #212529;
+  --color-grey-200: #495057;
+  --color-grey-300: #808387;
+  --color-grey-400: #dee2e6;
+  --color-grey-500: #e9ecef;
+  --color-grey-600: #f1f3f5;
+  --color-grey-700: #f8f9fa;
+  --color-brand-100: #087f5b;
+  --color-brand-200: #099268;
+
+  --font-size-1: 2.5rem;
+  --font-size-2: 1.75rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 1rem;
+
+  --font-weight-1: 100;
+  --font-weight-2: 200;
+  --font-weight-3: 300;
+  --font-weight-4: 400;
+  --font-weight-5: 500;
+  --font-weight-6: 600;
+  --font-weight-7: 700;
+  --font-weight-8: 800;
+  --font-weight-9: 900;
+
+  --line-height: 150%;
+
+  --animation-duration: 0.4s;
+  --animation-type: ease;
+
+  --pointer: pointer;
+}
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+.container{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 29px;
+  Height: 22.08px;
+  background-color: var(--color-brand-100);
+  border-radius: 0px 6px;
+}
+
+.listFilter {
+  padding: 7px 22px;
+  background-color: var(--color-grey-700);
+  border-radius: 32px;
+  transition: var(--animation-duration) var(--animation-type);
+  cursor: var(--pointer);
+}
+.listFilter:hover{
+  background-color: var(--color-grey-600);
+}
+
+.listFilterFocus{
+  color: white !important; 
+  background-color: var(--color-brand-100);
+  transition: var(--animation-duration) var(--animation-type);
+  cursor: var(--pointer);
+}
+.listFilterFocus:hover{
+  background-color: var(--color-brand-200);
+}
+
+#observer{
+  background-color: var(--color-grey-100);
+  height: 255px;
+  overflow: hidden;
+}
+.goTop{
+  padding: 7px 22px;
+  background-color: var(--color-grey-200);
+  border-radius: 32px;
+  cursor: var(--pointer);
+  transition: var(--animation-duration) var(--animation-type);
+}
+.goTop:hover{
+  background-color: var(--color-grey-300);
+}
+
+#scrollFilter{
+  border: none;
+  position: sticky;
+  right: 0px;
+  bottom: 0;
+  top: 0;
+  padding: 6px 10px;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
+  cursor: var(--pointer);
+}
+#startScrollFilter{
+  border: none;
+  position: sticky;
+  left: -8px;
+  bottom: 0;
+  top: 0;
+  padding: 6px 10px;
+  background: linear-gradient(90deg, rgb(255 255 255) 0%, rgba(255,255,255,0) 80%);
+  cursor: var(--pointer);
+}
+#startFilter{
+  position: absolute;
+}

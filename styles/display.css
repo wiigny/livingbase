@@ -1,0 +1,23 @@
+.dspl-flex{
+    display: flex;
+}
+.dspl-block{
+    display: block;
+}
+.dspl-inlineB{
+    display: inline-block;
+}
+.dspl-inline{
+    display: inline;
+}
+.dspl-none{
+    display: none;
+}
+
+
+.w40{
+    width: 40%;
+}
+.w60{
+    width: 60%;
+}

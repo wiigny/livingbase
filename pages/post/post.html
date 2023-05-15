@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/display.css">
+    <link rel="stylesheet" href="../../styles/positioning.css">
+    <link rel="stylesheet" href="../../styles/propFlex.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="./post.css">
+
+    <script type="module" src="./post.js" defer></script>
+    <script src="../../scripts/scrollFilter.js" defer></script>
+
+    <title>Living</title>
+    <link rel="shortcut icon" href="https://kenzie.com.br/favicon.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header id="top" class="container dspl-flex align__items-center justy__cont-SB">
+        <div class="dspl-flex align__items-center justy__cont-center gap20">
+            <div class="logo"></div>
+            <h2 class="text2 grey100 font-w700">Living</h2>
+        </div>
+        <div>
+            <button id="home" class="text4 font-w600">Home</button>
+        </div>
+    </header>
+
+    <main id="main" class="dspl-flex flex__direc-column gap70 mBottom100">
+        <article>
+            <section>
+                <div class="container dspl-flex flex__direc-column gap40">
+                    <h1 id="titleNews" class="text1 font-w600"></h1>
+                    <p id="descriptionNews" class="text4 font-w400 grey200"></p>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="boxImg">
+                    <img src="" alt="">
+                </div>
+                
+                <pre id="pre" class="text4 grey200 font-w400" style="white-space: pre-line;"></pre>
+
+            </section>
+        </article>
+        <nav class="container">
+            <ul class="dspl-flex gap20">
+                <a href="#startFilter" id="startScrollFilter" class="text4 font-w600 dspl-none">&#8592;</a>
+                <div id="startFilter"></div>
+
+                <li class="listFilter text4 grey200 font-w600">Todos</li>
+                <li class="listFilter text4 grey200 font-w600">Pintura</li>
+                <li class="listFilter text4 grey200 font-w600">Decoração</li>
+                <li class="listFilter text4 grey200 font-w600">Organização</li>
+                <li class="listFilter text4 grey200 font-w600">Limpeza</li>
+                <li class="listFilter text4 grey200 font-w600">Segurança</li>
+                <li class="listFilter text4 grey200 font-w600">Reforma</li>
+                <li class="listFilter text4 grey200 font-w600">Aromas</li>
+                <li class="listFilter text4 grey200 font-w600">Saúde</li>
+
+                <div id="endFilter"></div>
+                <a href="#endFilter" id="scrollFilter" class="text4 font-w600" >&#8594;</a>
+            </ul>
+        </nav>
+    </main>
+
+    <footer id="observer" class="dspl-flex align__items-center">
+        <div class="container dspl-flex justy__cont-SB align__items-center">
+            <div class="dspl-flex gap100 w60 align__items-center">
+                <div class="dspl-flex gap20 align__items-center">
+                    <div class="logo"></div>
+                    <h2 class="text2 grey700 font-w700">Living</h2>
+                </div>
+        
+                <div>
+                    <p class="text4 grey300 font-w400">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+                </div>
+            </div>
+    
+            <a href="#top" class="text4 goTop grey500 font-w600">Voltar para o topo</a>
+    
+        </div>
+    </footer>
+</body>
+</html>
